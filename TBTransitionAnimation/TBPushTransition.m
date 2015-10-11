@@ -105,6 +105,9 @@
             self.animatedView = [[UILabel alloc] init];
             ((UILabel *)self.animatedView).text = ((UILabel *)view).text;
             ((UILabel *)self.animatedView).numberOfLines = ((UILabel *)view).numberOfLines;
+			((UILabel *)self.animatedView).font = ((UILabel *)view).font;
+			((UILabel *)self.animatedView).textColor = ((UILabel *)view).textColor;
+			((UILabel *)self.animatedView).textAlignment = ((UILabel *)view).textAlignment;
         }
         else
         {
